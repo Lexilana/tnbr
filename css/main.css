@@ -1,0 +1,103 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color: #f033a3
+	text-decoration: none;
+}
+
+
+/***** GRID *****/
+.full-width{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+}
+
+.half-width{
+	width: 500px;
+}
+
+.sixth-width{
+	width: 200px;
+}
+
+
+/***** HEADER *****/
+
+header{
+	background-image: url("../img/bed.jpg");
+	background-size: cover;
+	height: 1000px;
+}
+
+
+nav ul{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #d6d5d5;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.first-nav, .logo, .second-nav{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+.first-nav {
+	width: 35%;
+}
+
+
+.logo {
+	width: 10%;
+	text-align: center;
+}
+
+.second-nav{
+	width: 35%;
+}
+
+
+header h1{
+	font-family: 'Lora', serif;
+	font-size: 115px;
+	color: #d6d5d5;
+	margin: 25% 0 0 0;
+}
+
+#read {
+	color: #f033a3;
+	margin-top: 5%;
+}
+
+
+/***** CHARACTERS *****/
+
+.intro {
+	padding: 2% 0 0 5%;
+}
+
+.pic-intro div{
+	display: flex;
+	margin:0 auto 0 auto; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
